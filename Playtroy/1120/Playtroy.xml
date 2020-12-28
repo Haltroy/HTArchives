@@ -1,0 +1,191 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Playtroy
+</name>
+</assembly>
+<members>
+<member name="T:Playtroy.My.Resources.Resources">
+<summary>
+  Yerelleştirilmiş dizeleri aramak gibi işlemler için, türü kesin olarak belirtilmiş kaynak sınıfı.
+</summary>
+</member>
+<member name="P:Playtroy.My.Resources.Resources.ResourceManager">
+<summary>
+  Bu sınıf tarafından kullanılan, önbelleğe alınmış ResourceManager örneğini döndürür.
+</summary>
+</member>
+<member name="P:Playtroy.My.Resources.Resources.Culture">
+<summary>
+  Tümü için geçerli iş parçacığının CurrentUICulture özelliğini geçersiz kular
+  CurrentUICulture özelliğini tüm kaynak aramaları için geçersiz kılar.
+</summary>
+</member>
+<member name="P:Playtroy.My.Resources.Resources.desen">
+<summary>
+  System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+</summary>
+</member>
+<member name="P:Playtroy.My.Resources.Resources.desen_w">
+<summary>
+  System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+</summary>
+</member>
+<member name="P:Playtroy.My.Resources.Resources.forward_b">
+<summary>
+  System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+</summary>
+</member>
+<member name="P:Playtroy.My.Resources.Resources.forward_w">
+<summary>
+  System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+</summary>
+</member>
+<member name="P:Playtroy.My.Resources.Resources.list_b">
+<summary>
+  System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+</summary>
+</member>
+<member name="P:Playtroy.My.Resources.Resources.list_w">
+<summary>
+  System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+</summary>
+</member>
+<member name="P:Playtroy.My.Resources.Resources.logo">
+<summary>
+  System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+</summary>
+</member>
+<member name="P:Playtroy.My.Resources.Resources.music">
+<summary>
+  System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+</summary>
+</member>
+<member name="P:Playtroy.My.Resources.Resources.noalbumart">
+<summary>
+  System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+</summary>
+</member>
+<member name="P:Playtroy.My.Resources.Resources.noalbumart_w">
+<summary>
+  System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+</summary>
+</member>
+<member name="P:Playtroy.My.Resources.Resources.nosound_b">
+<summary>
+  System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+</summary>
+</member>
+<member name="P:Playtroy.My.Resources.Resources.nosound_w">
+<summary>
+  System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+</summary>
+</member>
+<member name="P:Playtroy.My.Resources.Resources.pause_b">
+<summary>
+  System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+</summary>
+</member>
+<member name="P:Playtroy.My.Resources.Resources.pause_w">
+<summary>
+  System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+</summary>
+</member>
+<member name="P:Playtroy.My.Resources.Resources.play_b">
+<summary>
+  System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+</summary>
+</member>
+<member name="P:Playtroy.My.Resources.Resources.play_w">
+<summary>
+  System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+</summary>
+</member>
+<member name="P:Playtroy.My.Resources.Resources.playlist">
+<summary>
+  System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+</summary>
+</member>
+<member name="P:Playtroy.My.Resources.Resources.Playtroy">
+<summary>
+  System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+</summary>
+</member>
+<member name="P:Playtroy.My.Resources.Resources.Playtroy_EULA">
+<summary>
+  End-User License Agreement (EULA) of Playtroy
+This End-User License Agreement (&quot;EULA&quot;) is a legal agreement between you and Haltroy
+
+This EULA agreement governs your acquisition and use of our Playtroy software (&quot;Software&quot;) directly from Haltroy or indirectly through a Haltroy authorized reseller or distributor (a &quot;Reseller&quot;).
+
+Please read this EULA agreement carefully before completing the installation process and using the Playtroy software. It provides a license to use the Playtroy software and cont [dizenin kalan bölümü kesildi]&quot;; benzeri yerelleştirilmiş bir dize arar.
+</summary>
+</member>
+<member name="P:Playtroy.My.Resources.Resources.rdis_b">
+<summary>
+  System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+</summary>
+</member>
+<member name="P:Playtroy.My.Resources.Resources.rdis_w">
+<summary>
+  System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+</summary>
+</member>
+<member name="P:Playtroy.My.Resources.Resources.refresh_b">
+<summary>
+  System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+</summary>
+</member>
+<member name="P:Playtroy.My.Resources.Resources.refresh_w">
+<summary>
+  System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+</summary>
+</member>
+<member name="P:Playtroy.My.Resources.Resources.rewind_b">
+<summary>
+  System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+</summary>
+</member>
+<member name="P:Playtroy.My.Resources.Resources.rewind_w">
+<summary>
+  System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+</summary>
+</member>
+<member name="P:Playtroy.My.Resources.Resources.sound_b">
+<summary>
+  System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+</summary>
+</member>
+<member name="P:Playtroy.My.Resources.Resources.sound_w">
+<summary>
+  System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+</summary>
+</member>
+<member name="P:Playtroy.My.Resources.Resources.stop_b">
+<summary>
+  System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+</summary>
+</member>
+<member name="P:Playtroy.My.Resources.Resources.stop_w">
+<summary>
+  System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+</summary>
+</member>
+<member name="P:Playtroy.My.Resources.Resources.video">
+<summary>
+  System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+</summary>
+</member>
+<member name="T:Playtroy.UserControl1">
+<summary>
+UserControl1
+</summary>
+</member>
+<member name="M:Playtroy.UserControl1.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+</members>
+</doc>

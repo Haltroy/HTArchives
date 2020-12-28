@@ -1,0 +1,685 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Playtroy.exe" version="1.0.0.1" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="Playtroy.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Playtroy" version="1.1.1.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Playtroy.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Bildirim Seçenekleri
+             Windows Kullanıcı Hesabı Denetimi düzeyini değiştirmek istiyorsanız 
+             requestedExecutionLevel düğümünü aşağıdakilerden biriyle değiştirin.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            requestedExecutionLevel öğesini belirtmek, dosya ve kayıt defteri sanallaştırmasını devre dışı bırakır. 
+            Uygulamanız geriye doğru uyumluluk için bu sanallaştırmayı gerektiriyorsa, bu öğeyi
+            kaldırın.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="HaltroyFramework.dll" size="506368">
+      <assemblyIdentity name="HaltroyFramework" version="0.0.1.6" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>sLxQbHaQfEq1imj3TcCcZ+BdDbIpEHUgQhAMxvV4v+s=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Playtroy.exe" size="1059328">
+      <assemblyIdentity name="Playtroy" version="1.1.1.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>0fVhg0fICLZBZW5QSVoscSR3GvYoyqJa6YWdkBT/MQk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TagLibSharp.dll" size="492032">
+      <assemblyIdentity name="TagLibSharp" version="2.2.0.0" publicKeyToken="DB62EBA44689B5B0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>OoQuhAaHNPPq9XigwIdbFQWMGUsvIFR576hnOIvFwW4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Win32Interop.Dwmapi.dll" size="9728">
+      <assemblyIdentity name="Win32Interop.Dwmapi" version="1.0.1.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>aAWZAQgT+E0OurbCoMFWfHmdz0qBS+0xUxmO97vIL3o=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Win32Interop.Gdi32.dll" size="35840">
+      <assemblyIdentity name="Win32Interop.Gdi32" version="1.0.1.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>0kHgYqam0zNAw0SELsGN3TFUg+6aUQwcBNBG9BU40bw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Win32Interop.Kernel32.dll" size="90624">
+      <assemblyIdentity name="Win32Interop.Kernel32" version="1.0.1.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>m5bubz6trBaPwRrYNA6pkqamzx4oZRFVWZv08zJGeMs=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Win32Interop.User32.dll" size="98816">
+      <assemblyIdentity name="Win32Interop.User32" version="1.0.1.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>E/PRtSo2RmtQ7Az7TEW4UIJwzyyGYp7tP3nKzClbT9w=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Win32Interop.Uxtheme.dll" size="13312">
+      <assemblyIdentity name="Win32Interop.Uxtheme" version="1.0.1.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>GDxBwzUXzKZOui8/dZAIeGCiQTjd3HbxrviDiaA12O4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Lang\Afrikaans.lang" size="960">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>l5geVOSnzYTL+GF17z9vDJwq+OWiTiFoDC/HoOBjNSg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Lang\Albanian.lang" size="1181">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>l12MmGM1JfRNm/+1mB3Oz1zfSpuklCZ2qhtDl8/E+cg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Lang\Arabic.lang" size="1523">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>HR7WdP3eEjOCTV86cGDEBxpCi32LngNPPQu8IWHglUw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Lang\Armenian.lang" size="1905">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>vW4IHRB0FLS1PMEpx3fX2SI2IFifSjaBgsy5b0YT0hk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Lang\Azerbaijani.lang" size="1245">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>L+TAgnGoME9YPOHNS43LXU0GpsJXL/KH+FAuB2OJ1S4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Lang\Belarusian.lang" size="1836">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ZDIqvfJHqBlILI11Jxj/T8cfJZxs4VwZ2NfUtjdJu7c=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Lang\Bosnian.lang" size="1018">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>kYgWA0zE0sZXuO6dU5eGo02pcjrmRIa00q19CBiPfds=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Lang\Bulgarian.lang" size="1961">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>b5PJz1sWT6fZbrg0fGz1+lljDHt8xX7U6ywohHepAwg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Lang\Chinese.lang" size="912">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>uT19pf1CUusdtiaBKAHCnrWvDCeGwN/RBWkNyxM6Coc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Lang\Croatian.lang" size="1042">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+Xw8ezTtSh17czQ3X8WQuHNzksmhpFyAjH0kCFw631Q=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Lang\Czech.lang" size="1097">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>NAjbfFVBcSlUrHBsGRUk8RvlWsJxRQ82HBIJ2yLbGMA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Lang\Danish.lang" size="969">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>jTwtQq3jVvzTzipXYGFEGnyQaP66mJotGPx92UeZyFA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Lang\Dutch.lang" size="1107">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rIQXC1CGgv2sSXefnPyEcoldI9BTaoq5qtLuoSIr8u4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Lang\English.lang" size="907">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>geAlsAxw8JA0gS0+tXyALtBqTCOnQoHTg0vbJnFjTD0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Lang\Esperanto.lang" size="1076">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>5uvfmdOyRxTonlK3u6vruVM/tVHSiplRUTOMX4UbOVg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Lang\Estonian.lang" size="1042">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>s/0u9/y+P31DeePf+pk0vPEUjytQBqCu0JUW9lkstCg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Lang\Filipino.lang" size="1185">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>y9C25J7TIrOsIH/m0A1Q4rN1VmRCziMrKjTxKC8+O5w=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Lang\Finnish.lang" size="1050">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6hzjhXvAJW7Y41bjTmPE6uiEDEz1U0JYKXQJ16kWFiQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Lang\French.lang" size="1224">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>mGv5uQW1D6oHSZr5u1SL0X93YtVUJ/Xl60ddY1T7dPw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Lang\Galician.lang" size="1149">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>5oGZYUF75qJ2zlbBVWjANzbd9VAkDd/tF+NXU7lEtdA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Lang\Georgian.lang" size="2557">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>5QzOoh6JNEkYNUfY5yYDDviqeQzKsbkU0KEpaBL8Z5c=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Lang\German.lang" size="1179">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>WaKtmYZDOiJiSYkMbG2LU0vkxKfS+Df3BYUMd6Bigsg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Lang\Greek.lang" size="2075">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>0k1bnmEYpU0qDxQSufNE/Yk/H9p1ScTFDpL+zzeAXW0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Lang\Hawaiian.lang" size="1227">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>r57aYlhjzVsCfHSTstBOs4HmBBGSFedIKTg6K7xyhQI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Lang\Hebrew.lang" size="1392">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>YFpW6fhy24SpMPQrg+FsmwiPLeORenJHBpssoQA/p8Q=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Lang\Hindi.lang" size="2498">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>IXiIfBcjWQEC9WqukQW0xVHH/AcN0RVvHV1D44zkPd0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Lang\Hungarian.lang" size="1145">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Y0+25nZ9t5ezImOQx3VlbIMoI8nKAYQGnp2ROWyar6g=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Lang\Icelandic.lang" size="1080">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>HkBgNUEKDNh6hSUXx3Yr4Gd02Lz6VxsQHcnqKDcIdFw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Lang\Indonesian.lang" size="1075">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>GyZYSTE7b50YsltddBKIGRk9K31xr6nhpnZU2lOUk6g=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Lang\Irish.lang" size="1168">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>4XTm8OxdWH6Nfw+m/al4V3qBg+g8fIU9C9SxXObrAEc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Lang\Italian.lang" size="1116">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>7oLd8mAG6LKPs2aeMeIxYW0yzUDkaS6/tHLB8hsLdQ0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Lang\Japanese.lang" size="1496">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>for+JUhmBarUJp/eYR7I8WMSrlWoB7j5WaXZImj/8sE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Lang\Javanese.lang" size="984">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+ctVWw9WZ/w2ENY2HAhC4VWKhC1KINQnA8dMuMjIRYg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Lang\Kazakh.lang" size="1875">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>zmyqeUtOv+TTx0Xdqr7SV4b4dA39Jji1lo8Yk+8D7Q0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Lang\Khmer.lang" size="2507">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>yOZCYO3j6I8hwAITpOSJ86cT3gZE1XPfFLQfebeMVg4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Lang\Korean.lang" size="1220">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>LCQYVQxuD0AkRF8BMFXLfSQqbfwjlZImhBy4Vrj0B6M=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Lang\Kyrgyz.lang" size="1763">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>60HVsqisGT1BTjqRI1qHSCPim+GEWtBehsMznN/ArZY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Lang\Latin.lang" size="919">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>y+4mqpmvG58hOk07wfje7RSK4olC0cMZ+D8oMQg7Z9c=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Lang\Latvian.lang" size="1218">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>cSqP/5z9XX644LYOj5OvJ/zl0mJScjzKsBMG2eZC2rs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Lang\Lithuanian.lang" size="1208">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>a3wPtKUM1t5GnC5XhGtm1+mCiGa97WKCn15xf+eT+RE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Lang\Maltese.lang" size="1106">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>2DVevB7MNH1EyEYbA2meV59sP8wVCFfbEiYZjxMhrBQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Lang\Mongolian.lang" size="2070">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>4nAH8Hy8ltESsIfqB2QwuYdxi8pZhK8veM5pGAT8Jj4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Lang\Norwegian.lang" size="998">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>1qqY7kHb+GfYUtlNZJJNNMuQ20IVEeA9Wc6nbF/dGds=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Lang\Persian.lang" size="1835">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>1oSQhN9CSsQskjKr5yY7TQ9ST3Tcjvqw+lwK78Lmocs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Lang\Polish.lang" size="1081">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>YF5ezJ+IEd8Q29gpTOkRlVDvesU7vqcS5hErqcjkReM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Lang\Portuguese.lang" size="1159">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>I5kU4XTInkE4mTeT4cClQkL+OOaEOntqt00c8uz6ml0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Lang\Romanian.lang" size="1149">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>uofMuWstjSjkczjUWddRS9b/2/N9LKm6RdPSOwbUXtI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Lang\Russian.lang" size="1864">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>3w3254mPTCDYYLbzr4FV6rWjtqS2OBRTk7WRSc7L244=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Lang\Serbian.lang" size="1838">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>1ZB24KOSKFYfajhPQ1VzB1bqydatPN1NKVvCIqwa4Cw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Lang\Spanish.lang" size="1202">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>3tX9uUKMs8pp0fvVXcaoO4yKeFG269b23LVgtMA21ro=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Lang\Swedish.lang" size="984">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>fYkJFSqZzXmWkyI6j+R9T/5VZkt0X6hX5KV1bymtUSw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Lang\Turkingilish.lang" size="996">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>4fCaMXPsm0PKo5LqchqpjTSbZgQ7fbjRxJ1G5ZhAPOE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Lang\Turkish.lang" size="1110">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>PHDgpgc3TyFr8uHF1eoRlGMmABmGy4g0mwkea5dMZMI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Lang\Ukrainian.lang" size="1859">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+LchTYEnODnFhrURB/UsRqaDXedFDB7HeTcXha+xCT8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Lang\Uzbek.lang" size="1194">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>lcl+Xyz+ah60RHpKWBfr20fu+3lkFla0m5As7fnRnVE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Playtroy.exe.config" size="3957">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>dRIQePQZJ3zno9I8ZuzPatg1AA0zRShSkd4dyLcKAng=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Playtroy.ico" size="145848">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>gV6y8z0NxwgZOQFtvvKv2BVCZL/f0FlBBImyoMlhzBk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Playtroy.png" size="151547">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xaqU9pRNDdZdm8GnhhPuATB9K43DJq1cikEi6D8ebM8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Playtroy.png" size="151547">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xaqU9pRNDdZdm8GnhhPuATB9K43DJq1cikEi6D8ebM8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- Bu uygulamanın test edildiği ve birlikte çalışmak için tasarlandığı Windows sürümlerinin
+           bir listesi. Uygun öğelerin açıklamasını kaldırdığınızda Windows 
+           en uyumlu ortamı otomatik olarak seçer. -->
+      <!-- Sırasıyla Windows Vista/7/8/8.1/10 -->
+      <supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />
+      <supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />
+      <supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />
+      <supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />
+      <supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />
+    </application>
+  </compatibility>
+</asmv1:assembly>

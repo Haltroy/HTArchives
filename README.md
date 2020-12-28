@@ -1,2 +1,2 @@
 # HTArchives
- Archived old Haltroy programs & libraries.
+This repository includes binaries of old unsupported or abandoned programs or libraries of me.
